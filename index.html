@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:695px)" href="phone1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+
+
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">HI, I AM</h1>
+        <h1 class="heading">ABBAS CHAUDHRY</h1>
+        <br><br>
+        <p>AND THIS IS MY RESUME</p>
+        
+    </section>
+    
+    <section id="portfolio">
+        <h1 class="heading">Portfolio </h1>
+        <div class="gallery">
+            <img src="img1.jpg" alt="">
+            <img src="img2.jpg" alt="">
+            <img src="img3.jpg" alt="">
+            <img src="img4.png" alt="">
+            <img src="img5.png" alt="">
+            <img src="img6.jpg" alt="">
+            
+        </div>
+
+    </section>
+
+    <section id="education">
+        <h1 class="heading">Education</h1>
+        <div class="colums">
+            <div class="box">
+                <h2>Matriculation In Sciences</h2>
+                <p>Marticulation in Sciences(FBISE Islamabad) | 2018</p>
+            </div>
+            <div class="box">
+                <h2>Intermediate In Pre-Engeering</h2>
+                <p>Intermediate in Pre-Engeering(BISE Multan) | 2020</p>
+            </div>
+            <div class="box">
+                <h2>Bachlors In Information Technology</h2>
+                <p>Bachlors In Information Technology(IUB Bahawalpur) | 2020-2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="heading">About me</h1>
+        <div class="about">
+            <img src="bg.jpeg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Abbas Chaudhry</h2>
+                <p>Hi, I'm Abbas.I am a student of Information Technology and i have been studying in Islamia Universoity Bahawalpur.My interest in web Developing started after Intermediate.I have an experiance in web developing for almost a year.Learning to become a UI developer/designer and ethical hacker.I do like gaming and wanna excel in Game Development.I am a hardworking, passionative and i alwways try to do new things.Below is my Resume! 
+                    <br><br><br><a href="resume.png" download='Resume' class="download-btn">Download Resume
+                    <i class="fa fa-download"></i>
+                </a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="" class="form"></form>
+        <input type="text" name="name" class="input" placeholder="Enter Your Name">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email">
+        <textarea name="message" id="message" cols="70" rows="20" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1//jquery.min.js"></script> 
+  <script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 1500);
+  </script>
+</body>
+</html>
